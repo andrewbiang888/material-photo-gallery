@@ -1018,10 +1018,10 @@ if ( typeof define === 'function' && define.amd ) {
 });
 },{}],5:[function(require,module,exports){
 // Expose MaterialPhotoGallery to Global Scope
-var MaterialPhotoGallery = require('./material-photo-gallery');
+var MaterialPhotoGallery = require('gallery.html');
 window.MaterialPhotoGallery = MaterialPhotoGallery;
 
-},{"./material-photo-gallery":6}],6:[function(require,module,exports){
+},{"gallery.html":6}],6:[function(require,module,exports){
 /**
  *
  * Material Photo Gallery v0.0.1
